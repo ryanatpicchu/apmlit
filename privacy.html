@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Privacy Policy — Amplit</title>
+<meta name="description" content="Privacy policy for Amplit, a personal-use social media content automation tool." />
+<style>
+  :root {
+    --bg: #fafafa;
+    --fg: #111;
+    --muted: #6b7280;
+    --accent: #b8956a;
+    --border: #e5e7eb;
+    --card: #ffffff;
+    --serif: Georgia, 'Times New Roman', serif;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans TC', sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--sans);
+    color: var(--fg);
+    background: var(--bg);
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container { max-width: 760px; margin: 0 auto; padding: 0 24px; }
+
+  header {
+    padding: 24px 0;
+    border-bottom: 1px solid var(--border);
+    background: #fff;
+  }
+
+  nav { display: flex; justify-content: space-between; align-items: center; }
+
+  .logo { font-family: var(--serif); font-size: 28px; font-weight: normal; letter-spacing: -0.5px; }
+  .logo-dot { color: var(--accent); }
+  .logo a { color: inherit; text-decoration: none; }
+
+  .nav-links { display: flex; gap: 32px; font-size: 14px; color: var(--muted); }
+  .nav-links a { color: inherit; text-decoration: none; }
+  .nav-links a:hover { color: var(--fg); }
+
+  .hero {
+    padding: 80px 0 48px;
+    border-bottom: 1px solid var(--border);
+    background: #fff;
+  }
+  .hero h1 {
+    font-family: var(--serif);
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    margin-bottom: 16px;
+  }
+  .hero .meta {
+    font-size: 13px;
+    color: var(--muted);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  main { padding: 64px 0; }
+
+  article h2 {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: normal;
+    margin: 48px 0 20px;
+    letter-spacing: -0.3px;
+  }
+  article h2:first-child { margin-top: 0; }
+
+  article h3 {
+    font-family: var(--serif);
+    font-size: 18px;
+    font-weight: normal;
+    margin: 32px 0 12px;
+    color: var(--fg);
+  }
+
+  article p {
+    font-size: 16px;
+    color: #374151;
+    margin-bottom: 16px;
+  }
+
+  article ul {
+    margin: 16px 0 20px 24px;
+    color: #374151;
+  }
+  article li { margin-bottom: 8px; font-size: 16px; }
+
+  article strong { color: var(--fg); font-weight: 600; }
+
+  article a { color: var(--accent); text-decoration: underline; }
+  article a:hover { text-decoration: none; }
+
+  .callout {
+    background: #fff;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 4px;
+    padding: 20px 24px;
+    margin: 32px 0;
+    font-size: 15px;
+    color: #374151;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 24px 0;
+    font-size: 14px;
+  }
+  table th, table td {
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  table th {
+    background: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--muted);
+  }
+  table td { vertical-align: top; }
+
+  footer {
+    padding: 48px 0;
+    border-top: 1px solid var(--border);
+    background: #fff;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  footer .row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 24px; }
+  footer a { color: var(--muted); text-decoration: none; margin-right: 24px; }
+  footer a:hover { color: var(--fg); }
+
+  @media (max-width: 640px) {
+    .hero { padding: 48px 0 32px; }
+    .hero h1 { font-size: 32px; }
+    article h2 { font-size: 22px; }
+    .nav-links { gap: 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo"><a href="index.html">Amplit<span class="logo-dot">.</span></a></div>
+      <div class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#features">Features</a>
+        <a href="index.html#data">Data Use</a>
+        <a href="privacy.html" style="color: var(--fg);">Privacy</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="meta">Effective · April 19, 2026</div>
+    <h1 style="margin-top: 12px;">Privacy Policy</h1>
+  </div>
+</section>
+
+<main>
+  <div class="container">
+    <article>
+
+      <div class="callout">
+        <strong>TL;DR</strong> — Amplit is a personal-use tool operated by a single
+        independent developer. It accesses data from the developer's own Threads
+        and Instagram accounts, plus public API data. It does not collect,
+        sell, or share any third-party user data beyond what is publicly available
+        through official Meta APIs.
+      </div>
+
+      <h2>1. Overview</h2>
+
+      <p>
+        Amplit ("the app") is a personal-use social media content automation tool
+        operated by Ryan Hu ("the developer", "we", "us"), an independent developer
+        based in Taiwan. This policy describes what data Amplit accesses, how that
+        data is used, where it is stored, and how long it is retained.
+      </p>
+
+      <p>
+        Amplit is not a commercial product. It is not offered as a service to
+        clients. It does not act as a data processor on behalf of third parties.
+        The only users of Amplit are the developer and accounts explicitly added
+        as app testers for development purposes.
+      </p>
+
+      <h2>2. What data Amplit accesses</h2>
+
+      <p>Amplit accesses data in the following categories, all through official Meta APIs:</p>
+
+      <table>
+        <thead>
+          <tr><th>Category</th><th>Source</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Own account posts</strong></td>
+            <td>Threads API, Instagram Graph API</td>
+            <td>Display the developer's own published content in a private dashboard.</td>
+          </tr>
+          <tr>
+            <td><strong>Own account insights</strong></td>
+            <td>Threads API, Instagram Graph API</td>
+            <td>Analyze engagement metrics (views, likes, replies, reposts) on the developer's own posts.</td>
+          </tr>
+          <tr>
+            <td><strong>Replies on own posts</strong></td>
+            <td>Threads API</td>
+            <td>Show replies received on the developer's own posts for manual review and response.</td>
+          </tr>
+          <tr>
+            <td><strong>Follower counts (aggregate)</strong></td>
+            <td>Threads API, Instagram Graph API</td>
+            <td>Track growth trend of the developer's own accounts over time. Aggregate numbers only — no individual follower identity.</td>
+          </tr>
+          <tr>
+            <td><strong>Public keyword search results</strong></td>
+            <td>Threads keyword_search API</td>
+            <td>Research trending topics to inform content direction. Results displayed on demand; not persisted.</td>
+          </tr>
+          <tr>
+            <td><strong>Authentication tokens</strong></td>
+            <td>Meta OAuth flow</td>
+            <td>Authorize Amplit to call Meta APIs on behalf of the developer's own accounts.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>3. What data Amplit does NOT collect</h2>
+
+      <ul>
+        <li>Private messages (DMs) — Amplit does not access Threads or Instagram direct messages.</li>
+        <li>Follower lists — Amplit does not enumerate, store, or profile individual followers.</li>
+        <li>Other users' private data — Amplit only interacts with the developer's own accounts.</li>
+        <li>Payment information — Amplit does not process payments.</li>
+        <li>Device fingerprints, advertising identifiers, or tracking pixels.</li>
+      </ul>
+
+      <h2>4. How data is used</h2>
+
+      <p>Data accessed via Meta APIs is used exclusively for:</p>
+
+      <ul>
+        <li>Displaying the developer's own content and performance in a private dashboard.</li>
+        <li>Generating AI-assisted post drafts via <a href="https://www.anthropic.com" target="_blank" rel="noopener">Anthropic Claude</a>. Only the developer's brand settings and selected trending topics are sent to the AI — never follower PII or reply content containing personal information.</li>
+        <li>Scheduling and publishing posts to the developer's own accounts.</li>
+        <li>Drafting suggested replies for the developer to manually review and send.</li>
+      </ul>
+
+      <h2>5. Third-party services</h2>
+
+      <p>Amplit uses the following third-party services:</p>
+
+      <table>
+        <thead>
+          <tr><th>Service</th><th>Data shared</th><th>Purpose</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Meta (Threads &amp; Instagram)</strong></td>
+            <td>OAuth tokens, API requests</td>
+            <td>Core platform integration.</td>
+          </tr>
+          <tr>
+            <td><strong>Anthropic</strong></td>
+            <td>Trending topics, brand settings, post drafts</td>
+            <td>AI-assisted content drafting via Claude Code CLI.</td>
+          </tr>
+          <tr>
+            <td><strong>Cloudflare R2</strong></td>
+            <td>Media files uploaded by the developer</td>
+            <td>Storage for images and videos to be published as posts.</td>
+          </tr>
+          <tr>
+            <td><strong>GitHub Pages</strong></td>
+            <td>None</td>
+            <td>Hosting for this informational website only.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>
+        Each third-party service operates under its own privacy policy. Amplit does
+        not share data with advertising networks, analytics platforms, or
+        data brokers.
+      </p>
+
+      <h2>6. Data storage and retention</h2>
+
+      <p>
+        All data accessed by Amplit is stored in a private PostgreSQL database
+        running on infrastructure controlled by the developer. Media files are
+        stored in a Cloudflare R2 bucket with access restricted to the developer.
+      </p>
+
+      <ul>
+        <li><strong>OAuth tokens:</strong> Stored encrypted, refreshed per Meta's token lifecycle. Revoked immediately upon disconnecting an account.</li>
+        <li><strong>Post and insight data:</strong> Retained as long as the developer chooses to keep historical records for analysis. Deletable at any time via the app.</li>
+        <li><strong>Reply data:</strong> Retained for engagement tracking. Not exported or shared externally.</li>
+        <li><strong>Public search results:</strong> Not persisted — fetched on demand and discarded after display.</li>
+        <li><strong>Media files:</strong> Retained until the developer deletes them from the media library.</li>
+      </ul>
+
+      <h2>7. Security</h2>
+
+      <p>Amplit applies the following security measures:</p>
+
+      <ul>
+        <li>All external API traffic uses HTTPS/TLS.</li>
+        <li>OAuth tokens are stored encrypted at rest.</li>
+        <li>Database access is restricted to the developer's infrastructure; no public network exposure.</li>
+        <li>Media uploads strip EXIF metadata before storage to avoid leaking location data.</li>
+        <li>The app runs behind authentication — no public access to the dashboard.</li>
+      </ul>
+
+      <h2>8. Your rights</h2>
+
+      <p>
+        Because Amplit is a personal-use tool with no external user base, the only
+        data subject is the developer. However, if you are a Threads or Instagram
+        user whose public data may appear in keyword search results viewed by the
+        developer, you retain all rights granted by Meta's platform policies and
+        applicable data protection regulations. You may control visibility of your
+        content through your Threads / Instagram privacy settings.
+      </p>
+
+      <p>
+        Amplit does not retain public search results beyond the session in which
+        they are fetched, and does not build profiles of any third-party user.
+      </p>
+
+      <h2>9. Compliance with Meta Platform Terms</h2>
+
+      <p>Amplit operates in compliance with:</p>
+
+      <ul>
+        <li><a href="https://developers.facebook.com/terms/" target="_blank" rel="noopener">Meta Platform Terms</a></li>
+        <li><a href="https://developers.facebook.com/devpolicy/" target="_blank" rel="noopener">Developer Policies</a></li>
+        <li><a href="https://developers.facebook.com/docs/threads/overview" target="_blank" rel="noopener">Threads API Terms</a></li>
+      </ul>
+
+      <p>
+        Amplit does not replicate Meta's core user-facing functionality, does not
+        sell data obtained from Meta APIs, and does not combine Meta API data with
+        data from other sources for profiling or ad targeting.
+      </p>
+
+      <h2>10. Changes to this policy</h2>
+
+      <p>
+        This policy may be updated to reflect changes in Amplit's data handling
+        practices or new requirements from Meta Platform Terms. The effective
+        date at the top of this page indicates when the current version took
+        effect. Significant changes will be noted in the app's changelog.
+      </p>
+
+      <h2>11. Contact</h2>
+
+      <p>
+        For questions, data handling concerns, or requests related to this policy,
+        contact:
+      </p>
+
+      <p>
+        <strong>Ryan Hu</strong><br/>
+        Email: <a href="mailto:ryanhu1208@gmail.com">ryanhu1208@gmail.com</a><br/>
+        Location: Taiwan
+      </p>
+
+    </article>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div>&copy; 2026 Amplit · A personal project by Ryan Hu</div>
+      <div>
+        <a href="index.html">Home</a>
+        <a href="mailto:ryanhu1208@gmail.com">Contact</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
